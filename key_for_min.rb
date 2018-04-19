@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
 
   name_hash.max_by { |key| puts "item=#{item}" }
- 
-     max = name_hash.max_by do | k, v | 
+
+     max = name_hash.max_by do | k, v |
          puts "k=#{k}  v=#{v}  0 - v = #{0 - v}"
          0 - v
      end
